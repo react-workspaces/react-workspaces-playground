@@ -1,16 +1,14 @@
 # CRA Workspaces POC
 
-> Proof of concept: Create-React-App Monorepos with Yarn Workspaces and Lerna (zero-config).
-
-- What's this about? https://github.com/facebook/create-react-app/issues/1333#issuecomment-439275517
-
 ## TL,DR;
 
-Creating a React App Monorepo with Yarn Workspaces support is as easy as:
+Starting a CRA Monorepo with Yarn Workspaces support is as easy as:
 
 ```shell
 create-react-app --scripts-version @f1lt3r/react-scripts
 ```
+
+- What's this about? https://github.com/facebook/create-react-app/issues/1333#issuecomment-439275517
 
 ## Testing this POC
 
@@ -28,7 +26,7 @@ Update the `components/comp-one/src/index.js` to see the live changes to the `<C
 
 ![Screenshot of Yarn Workspaces React App monorepo running](https://i.imgur.com/oUvRvkm.png)
 
-## Detail Steps
+## Detailed Steps
 
 The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
 
