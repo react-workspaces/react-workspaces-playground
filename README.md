@@ -14,15 +14,23 @@ create-react-app --scripts-version @f1lt3r/react-scripts
 
 ## Testing this POC
 
-You could follow the Usage Steps below to set up your own React App Monorepo with Yarn Workspaces and Lerna support.
-
-Or if you would like a shortcut to test things out: you could download this codebase, install and run.
+To download and test a CRA Workspaces Monorepo, do this:
 
 ```shell
 git clone git@github.com:f1lt3r/cra-workspaces-poc.git
+cd cra-workspaces-poc
+yarn
+cd apps/app-foo
+yarn start
 ```
 
-## Usage Steps
+Update the `components/comp-one/src/index.js` to see the live changes to the `<CompOne>` component.
+
+![Screenshot of Yarn Workspaces React App monorepo running](https://i.imgur.com/oUvRvkm.png)
+
+## Detail Steps
+
+The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
 
 1. Initialize your Lerna repo:
 
