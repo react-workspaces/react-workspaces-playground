@@ -4,6 +4,14 @@
 
 - What's this about? https://github.com/facebook/create-react-app/issues/1333#issuecomment-439275517
 
+## TL,DR;
+
+Creating a React App Monorepo with Yarn Workspaces support is as easy as:
+
+```shell
+create-react-app --scripts-version @f1lt3r/react-scripts
+```
+
 ## Testing this POC
 
 You could follow the Usage Steps below to set up your own React App Monorepo with Yarn Workspaces and Lerna support.
