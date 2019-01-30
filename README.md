@@ -80,7 +80,7 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
 
     ```shell
     cd ~/repos/cra-workspaces-poc/apps
-    create-react-app --scripts-version @f1lt3r/react-scripts app-foo
+    create-react-app --scripts-version @f1lt3r/react-scripts@2.1.1-workspaces-04 app-foo
     ```
 
 5. Create a React component:
@@ -139,7 +139,7 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
         "version": "0.1.0",
         "private": true,
         "dependencies": {
-            "@f1lt3r/react-scripts": "2.1.1-zeta-001",
+            "@f1lt3r/react-scripts": "2.1.1-workspaces-04",
             "react": "^16.6.3",
             "react-dom": "^16.6.3",
             "@project/comp-one": "1.0.0"
