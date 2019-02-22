@@ -5,7 +5,7 @@
 Starting a CRA Monorepo with Yarn Workspaces support is as easy as:
 
 ```shell
-create-react-app --scripts-version @f1lt3r/react-scripts
+create-react-app --scripts-version @f1lt3r/react-scripts@2.1.1-workspaces-04 my-app
 ```
 
 - What's this about? https://github.com/facebook/create-react-app/issues/1333#issuecomment-439275517
