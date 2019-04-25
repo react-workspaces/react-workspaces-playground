@@ -5,7 +5,7 @@
 Starting a CRA Monorepo with Yarn Workspaces support is as easy as:
 
 ```shell
-create-react-app --scripts-version @f1lt3r/react-scripts@2.1.1-workspaces-04 my-app
+create-react-app --scripts-version @react-workspaces/react-scripts@2.1.1-workspaces-07 my-app
 ```
 
 - What's this about? https://github.com/facebook/create-react-app/issues/1333#issuecomment-439275517
@@ -15,7 +15,7 @@ create-react-app --scripts-version @f1lt3r/react-scripts@2.1.1-workspaces-04 my-
 To download and test a CRA Workspaces Monorepo, do this:
 
 ```shell
-git clone git@github.com:f1lt3r/cra-workspaces-poc.git
+git clone git@github.com:react-workspaces/cra-workspaces-poc.git
 cd cra-workspaces-poc
 yarn
 cd apps/app-foo
@@ -80,7 +80,7 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
 
     ```shell
     cd ~/repos/cra-workspaces-poc/apps
-    create-react-app --scripts-version @f1lt3r/react-scripts@2.1.1-workspaces-04 app-foo
+    create-react-app --scripts-version @react-workspaces/react-scripts@2.1.1-workspaces-07 app-foo
     ```
 
 5. Create a React component:
@@ -139,7 +139,7 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
         "version": "0.1.0",
         "private": true,
         "dependencies": {
-            "@f1lt3r/react-scripts": "2.1.1-workspaces-04",
+            "@react-workspaces/react-scripts": "2.1.1-workspaces-07",
             "react": "^16.6.3",
             "react-dom": "^16.6.3",
             "@project/comp-one": "1.0.0"
