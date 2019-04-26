@@ -1,7 +1,7 @@
 {
   "main.css": "/cra-workspaces-playground/static/css/main.ffa82ab1.chunk.css",
-  "main.js": "/cra-workspaces-playground/static/js/main.943125c2.chunk.js",
-  "main.js.map": "/cra-workspaces-playground/static/js/main.943125c2.chunk.js.map",
+  "main.js": "/cra-workspaces-playground/static/js/main.3a534018.chunk.js",
+  "main.js.map": "/cra-workspaces-playground/static/js/main.3a534018.chunk.js.map",
   "static/js/1.c8c143e9.chunk.js": "/cra-workspaces-playground/static/js/1.c8c143e9.chunk.js",
   "static/js/1.c8c143e9.chunk.js.map": "/cra-workspaces-playground/static/js/1.c8c143e9.chunk.js.map",
   "runtime~main.js": "/cra-workspaces-playground/static/js/runtime~main.265d2a12.js",
@@ -10,6 +10,6 @@
   "static/media/YarnCat.svg": "/cra-workspaces-playground/static/media/YarnCat.42730579.svg",
   "static/css/main.ffa82ab1.chunk.css.map": "/cra-workspaces-playground/static/css/main.ffa82ab1.chunk.css.map",
   "index.html": "/cra-workspaces-playground/index.html",
-  "precache-manifest.3c76e96eb34d39f8d9fb56b5cb2955f8.js": "/cra-workspaces-playground/precache-manifest.3c76e96eb34d39f8d9fb56b5cb2955f8.js",
+  "precache-manifest.5554d5a02fc96298bb58e8bc782f0e70.js": "/cra-workspaces-playground/precache-manifest.5554d5a02fc96298bb58e8bc782f0e70.js",
   "service-worker.js": "/cra-workspaces-playground/service-worker.js"
 }

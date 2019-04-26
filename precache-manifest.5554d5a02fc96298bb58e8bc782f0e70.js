@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "943125c251187c40dcd9",
+    "revision": "3a534018d272d9f9f834",
     "url": "/cra-workspaces-playground/static/css/main.ffa82ab1.chunk.css"
   },
   {
-    "revision": "943125c251187c40dcd9",
-    "url": "/cra-workspaces-playground/static/js/main.943125c2.chunk.js"
+    "revision": "3a534018d272d9f9f834",
+    "url": "/cra-workspaces-playground/static/js/main.3a534018.chunk.js"
   },
   {
     "revision": "c8c143e9206dd02bc412",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/cra-workspaces-playground/static/media/YarnCat.42730579.svg"
   },
   {
-    "revision": "c19710a3173d112cd547578e1747ae6e",
+    "revision": "e9f183a53959f3f4449aca170cd519d5",
     "url": "/cra-workspaces-playground/index.html"
   }
 ];
