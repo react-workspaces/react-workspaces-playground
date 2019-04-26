@@ -1,9 +1,11 @@
 {
   "name": "app-foo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@f1lt3r/react-scripts": "2.1.1-zeta-001",
+    "@react-workspaces/react-scripts": "2.1.1-workspaces-07",
+    "@project/comp-one": "1.0.0",
+    "@project/comp-two": "1.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },
