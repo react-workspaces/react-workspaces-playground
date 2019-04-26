@@ -16,7 +16,7 @@ class App extends Component {
             </div>
             <h1><a
                 className="App-link"
-                href="https://github.com/react-workspaces"
+                href="https://github.com/react-workspaces/cra-workspaces-playground"
                 target="_blank"
                 rel="noopener noreferrer"
             >
