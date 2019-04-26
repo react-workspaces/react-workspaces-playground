@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-workspaces-playground/static/css/main.ffa82ab1.chunk.css",
-  "main.js": "/react-workspaces-playground/static/js/main.912c535e.chunk.js",
-  "main.js.map": "/react-workspaces-playground/static/js/main.912c535e.chunk.js.map",
-  "static/js/1.c8c143e9.chunk.js": "/react-workspaces-playground/static/js/1.c8c143e9.chunk.js",
-  "static/js/1.c8c143e9.chunk.js.map": "/react-workspaces-playground/static/js/1.c8c143e9.chunk.js.map",
-  "runtime~main.js": "/react-workspaces-playground/static/js/runtime~main.b3d7d689.js",
-  "runtime~main.js.map": "/react-workspaces-playground/static/js/runtime~main.b3d7d689.js.map",
-  "static/media/ReactLogo.svg": "/react-workspaces-playground/static/media/ReactLogo.2c813d88.svg",
-  "static/media/YarnCat.svg": "/react-workspaces-playground/static/media/YarnCat.42730579.svg",
-  "static/css/main.ffa82ab1.chunk.css.map": "/react-workspaces-playground/static/css/main.ffa82ab1.chunk.css.map",
-  "index.html": "/react-workspaces-playground/index.html",
-  "precache-manifest.57b2f5c1ba2276089d241880c26b24bc.js": "/react-workspaces-playground/precache-manifest.57b2f5c1ba2276089d241880c26b24bc.js",
-  "service-worker.js": "/react-workspaces-playground/service-worker.js"
+  "main.css": "/cra-workspaces-playground/static/css/main.ffa82ab1.chunk.css",
+  "main.js": "/cra-workspaces-playground/static/js/main.943125c2.chunk.js",
+  "main.js.map": "/cra-workspaces-playground/static/js/main.943125c2.chunk.js.map",
+  "static/js/1.c8c143e9.chunk.js": "/cra-workspaces-playground/static/js/1.c8c143e9.chunk.js",
+  "static/js/1.c8c143e9.chunk.js.map": "/cra-workspaces-playground/static/js/1.c8c143e9.chunk.js.map",
+  "runtime~main.js": "/cra-workspaces-playground/static/js/runtime~main.265d2a12.js",
+  "runtime~main.js.map": "/cra-workspaces-playground/static/js/runtime~main.265d2a12.js.map",
+  "static/media/ReactLogo.svg": "/cra-workspaces-playground/static/media/ReactLogo.2c813d88.svg",
+  "static/media/YarnCat.svg": "/cra-workspaces-playground/static/media/YarnCat.42730579.svg",
+  "static/css/main.ffa82ab1.chunk.css.map": "/cra-workspaces-playground/static/css/main.ffa82ab1.chunk.css.map",
+  "index.html": "/cra-workspaces-playground/index.html",
+  "precache-manifest.3c76e96eb34d39f8d9fb56b5cb2955f8.js": "/cra-workspaces-playground/precache-manifest.3c76e96eb34d39f8d9fb56b5cb2955f8.js",
+  "service-worker.js": "/cra-workspaces-playground/service-worker.js"
 }
