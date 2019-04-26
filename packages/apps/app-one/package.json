@@ -1,11 +1,13 @@
 {
   "name": "app-one",
   "version": "1.0.0",
+  "homepage": "https://react-workspaces.github.io/cra-workspaces-playground",
   "private": true,
   "dependencies": {
-    "@react-workspaces/react-scripts": "2.1.1-workspaces-07",
     "@project/comp-one": "1.0.0",
     "@project/comp-two": "1.0.0",
+    "@react-workspaces/react-scripts": "2.1.1-workspaces-07",
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },
@@ -13,6 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
