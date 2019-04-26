@@ -1,6 +1,6 @@
-# CRA Workspaces POC
+# CRA Workspaces Playground
 
-## TL,DR;
+![React Workspaces Playground Screenshot](images/react-workspaces-screenshot.png)
 
 Starting a CRA Monorepo with Yarn Workspaces support is as easy as:
 
@@ -10,21 +10,19 @@ create-react-app --scripts-version @react-workspaces/react-scripts@2.1.1-workspa
 
 - What's this about? https://github.com/facebook/create-react-app/issues/1333#issuecomment-439275517
 
-## Testing this POC
+## Testing this playground
 
 To download and test a CRA Workspaces Monorepo, do this:
 
 ```shell
-git clone git@github.com:react-workspaces/cra-workspaces-poc.git
-cd cra-workspaces-poc
+git clone git@github.com:react-workspaces/cra-workspaces-playground.git
+cd cra-workspaces-playground
 yarn
-cd apps/app-foo
+cd apps/app-one
 yarn start
 ```
 
 Update the `components/comp-one/src/index.js` to see the live changes to the `<CompOne>` component.
-
-![Screenshot of Yarn Workspaces React App monorepo running](https://i.imgur.com/oUvRvkm.png)
 
 ## Detailed Steps
 
@@ -32,11 +30,11 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
 
 1. Initialize your Lerna repo:
 
-    > `~/repos/cra-workspaces-poc` is your `<workspaces-root>`
+    > `~/repos/cra-workspaces-playground` is your `<workspaces-root>`
 
     ```shell
-    mkdir ~/repos/cra-workspaces-poc
-    cd ~/repos/cra-workspaces-poc
+    mkdir ~/repos/cra-workspaces-playground
+    cd ~/repos/cra-workspaces-playground
     lerna init
     ```
 
@@ -46,8 +44,16 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
 
     ```json
     {
+        "useWorkspaces": true,
+        "packages": [
+            "packages/*/*"
+        ],
         "version": "1.0.0",
-        "useWorkspaces": true
+        "command": {
+            "run": {
+            "npmClient": "yarn"
+            }
+        }
     }
     ```
 
@@ -63,8 +69,8 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
             "lerna": "^3.4.0"
         },
         "workspaces": [
-            "apps/*",
-            "components/*"
+            "packages/apps/*",
+            "packages/components/*"
         ]
     }
     ```
@@ -72,26 +78,26 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
 3. Create your package directories:
 
     ```shell
-    cd ~/repos/cra-workspaces-poc
-    mkdir apps components
+    cd ~/repos/cra-workspaces-playground
+    mkdir packages packages/apps packages/components
     ```
 
 4. Create your React App with custom React-Sripts:
 
     ```shell
-    cd ~/repos/cra-workspaces-poc/apps
-    create-react-app --scripts-version @react-workspaces/react-scripts@2.1.1-workspaces-07 app-foo
+    cd ~/repos/cra-workspaces-playground/packages/apps
+    create-react-app --scripts-version @react-workspaces/react-scripts@2.1.1-workspaces-07 app-one
     ```
 
 5. Create a React component:
 
     ```shell
-    cd ~/repos/cra-workspaces-poc/components
+    cd ~/repos/cra-workspaces-playground/packages/components
     mkdir comp-one
     cd comp-one
     ```
 
-    Write to file `<workspaces-root>/components/comp-one/package.json`:
+    Write to file `<workspaces-root>/packages/components/comp-one/package.json`:
 
     > Note the user of `main:src` instead of `main`:
 
@@ -106,20 +112,18 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
     Add some code for your React component:
 
     ```shell
-    cd ~/repos/cra-workspaces-poc/components/comp-one
+    cd ~/repos/cra-workspaces-playground/packages/components/comp-one
     mkdir src
     cd src
     ```
 
-    Write to file `<workspaces-root>/components/comp-one/src/index.js`:
+    Write to file `<workspaces-root>/packages/components/comp-one/src/index.js`:
 
     ```js
     import React from 'react';
 
-    const CompOne = () => <div>
-        <h3>CompOne</h3>
-        <p><i>Transpiled On-The-Fly</i></p>
-        <code>&#123;"main:src": "src/index.js"&#125;</code>
+    const CompOne = () => <div className="Comp">
+        <h3><span role="img" aria-label="React Logo">⚛️</span>  Comp One</h3>
     </div>;
 
     export default CompOne;
@@ -128,14 +132,14 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
 6. Update your React App to include the dependency for CompOne:
 
     ```shell
-    cd ~/repos/cra-workspaces-poc/apps/app-foo
+    cd ~/repos/cra-workspaces-playground/packages/apps/app-one
     ```
 
-    Change file: `<workspaces-root>/apps/app-foo/package.json`:
+    Change file: `<workspaces-root>/apps/app-one/package.json`:
 
     ```json
     {
-        "name": "app-foo",
+        "name": "app-one",
         "version": "0.1.0",
         "private": true,
         "dependencies": {
@@ -163,7 +167,7 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
     ```
 7. Use your component in your React App:
 
-    Update file `<workspaces-root>/apps/app-foo/src/App.js`:
+    Update file `<workspaces-root>packages/apps/app-one/src/App.js`:
 
     ```js
     import React, { Component } from 'react';
@@ -203,24 +207,17 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
     Re-link and build fresh packages:
 
     ```shell
-    cd ~/repos/cra-workspaces-poc/
+    cd ~/repos/cra-workspaces-playground/
     yarn
     ```
 
     Start your app:
 
     ```shell
-    cd apps/app-foo
+    cd apps/app-one
     yarn start
     ```
 
-9. Results...
+9. Finished!
 
-    You should see the following app launched:
-
-    ![Screenshot of Yarn Workspaces React App monorepo running](https://i.imgur.com/oUvRvkm.png)
-
-    - CompOne should show up.
-    - Changes to CompOne should be hot-reloaded.
-    - Any errors you encounter will point to the `src/index.js`.
-
+    You should see your React app launched with your component. Try editing your component and test hot-reloading. 😄
