@@ -105,6 +105,7 @@ The following steps detail how to setup a CRA Workspaces Monorepo from scratch:
     {
         "name": "@project/comp-one",
         "version": "1.0.0",
+        "main": "src/index.js"
         "main:src": "src/index.js"
     }
     ```
