@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "test": "FORCE_COLOR=true lerna run lint && FORCE_COLOR=true lerna run test -- --coverage"
+    "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage"
   },
   "workspaces": {
     "packages": [
@@ -27,8 +27,8 @@
     "prettier": "^1.16.1"
   },
   "dependencies": {
-    "babel-eslint": "9.0.0",
-    "eslint": "5.6.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.16.0",
     "eslint-config-prettier": "^4.2.0",
     "eslint-config-react-app": "^4.0.0",
     "eslint-config-xo": "^0.26.0",
@@ -39,5 +39,14 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.6.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/setupTests.{js,jsx}",
+      "!src/index.{js,jsx}",
+      "!src/serviceWorker.{js,jsx}",
+      "!src/**/*.(spec|test|stories).{js,jsx}"
+    ]
   }
 }

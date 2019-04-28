@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@project/components": "1.0.0",
-    "@react-workspaces/react-scripts": "2.1.1-workspaces-07",
+    "@react-workspaces/react-scripts": "3.0.0-alpha-02",
     "cross-env": "5.0.5",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint ./src/**/*.js --max-warnings=0 --format=codeframe",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
