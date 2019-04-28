@@ -6,9 +6,9 @@
 - 📖 Storybook 5
 - 🐱 Yarn Workspaces
 - 🐉 Lerna 3
-- 👨‍🔬 Tests: Eslint & Jest
-- ✨ Host Multiple, CRA Apps, Component Libraries & Storybooks in one Monorepo
-- 🔥 Hot Reloading of all Apps, Components & Storybooks
+- ✨ Host Multiple CRA Apps, Component Libraries & Storybooks in one Monorepo
+- 🔥 Hot Reload all Apps, Components & Storybooks
+- 👨‍🔬 Test everything with Eslint & Jest using one command
 
 ## Setup
 
