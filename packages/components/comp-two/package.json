@@ -1,5 +1,6 @@
 {
     "name": "@project/comp-two",
     "version": "1.0.0",
+    "main": "src/index.js",
     "main:src": "src/index.js"
 }
