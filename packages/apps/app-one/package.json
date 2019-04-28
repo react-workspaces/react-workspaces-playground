@@ -1,7 +1,7 @@
 {
   "name": "@project/app-one",
   "version": "1.0.0",
-  "homepage": "https://react-workspaces.github.io/cra-workspaces-playground",
+  "homepage": "https://react-workspaces.github.io/react-workspaces-playground",
   "private": true,
   "dependencies": {
     "@project/components": "1.0.0",
