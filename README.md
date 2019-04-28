@@ -11,6 +11,21 @@
 - 👨‍🔬 Test all workspaces with Eslint & Jest using one command
 - :octocat: Deploy your apps to Github Pages using one command
 
+## Contents
+
+- [Features](#features)
+- [Contents](#contents)
+- [Setup](#setup)
+  - [Pre-Requisites](#pre-requisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Starting The React App](#starting-the-react-app)
+  - [Starting The Storybook](#starting-the-storybook)
+  - [Linting & Testing](#linting--testing)
+  - [Deploying to GitHub Pages](#deploying-to-github-pages)
+  - [Creating a New CRA App](#creating-a-new-cra-app)
+- [How Does It Work?](#how-does-it-work)
+
 ## Setup
 
 ### Pre-Requisites
