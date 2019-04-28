@@ -1,6 +1,6 @@
 # CRA Workspaces Playground
 
-![React Workspaces Playground Screenshot](https://i.imgur.com/LQ89VOC.png)
+![React Workspaces Playground Screenshots](https://i.imgur.com/BL9w3n9.png)
 
 ## Features
 
