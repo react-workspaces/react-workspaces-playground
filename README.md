@@ -49,6 +49,28 @@ cd <workspace-root>
 yarn test
 ```
 
+### Deploying to GitHub Pages
+
+Update `homepage` in `app-one/package.json` to your GitHub Pages URL.
+
+```json
+{
+  "name": "@project/app-one",
+  "private": true,
+  "homepage": "https://react-workspaces.github.io/react-workspaces-playground",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  }
+}
+```
+
+Run the deploy script.
+
+```bash
+cd <workspace-root>
+yarn deploy
+```
+
 ### Creating a New CRA App
 
 Use Create React App's `--scripts-version` to create a new React App with Yarn Workspaces support.
