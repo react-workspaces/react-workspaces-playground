@@ -51,7 +51,7 @@ yarn test
 
 ### Deploying to GitHub Pages
 
-Update `homepage` in `app-one/package.json` to your GitHub Pages URL.
+Update the `homepage` URL in `app-one/package.json` to reflect your GitHub Pages URL.
 
 ```json
 {
