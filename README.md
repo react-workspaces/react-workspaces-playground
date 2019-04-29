@@ -96,7 +96,7 @@ create-react-app --scripts-version @react-workspaces/react-scripts my-app
 
 ## How Does It Work?
 
-React Workspaces Playground uses a custom version of `react-scripts` under the hood ([@react-workspaces/react-scripts](https://www.npmjs.com/@react-workspaces/react-scripts)).
+React Workspaces Playground uses a custom version of `react-scripts` under the hood. React Workspaces custom `react-scripts` is an NPM package that you can use in place of the `react-scripts` package that ships with Create React App. See: ([@react-workspaces/react-scripts](https://www.npmjs.com/@react-workspaces/react-scripts)) on NPM.
 
 Support for Yarn Workspaces was added by:
 
