@@ -4,7 +4,7 @@
 
 - ⚛️ Create React App 3 (React 16.8)
 - 📖 Storybook 5
-- 🐱 Yarn Workspaces
+- 🐈 Yarn Workspaces
 - 🐉 Lerna 3
 - ✨ Host Multiple CRA Apps, Component Libraries & Storybooks in one Monorepo
 - 🔥 Hot Reload all Apps, Components & Storybooks
