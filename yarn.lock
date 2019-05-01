@@ -2017,10 +2017,10 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@react-workspaces/react-scripts@3.0.0-alpha-02":
-  version "3.0.0-alpha-02"
-  resolved "https://registry.yarnpkg.com/@react-workspaces/react-scripts/-/react-scripts-3.0.0-alpha-02.tgz#a93d5344dfd7ea3c12d99843e50e338cba720384"
-  integrity sha512-4yEeh+NNH1vGUdMjiL/rFVxFyEjJ2sdSfy2QPGfx3wgwZIIc4nnFXa2GW7XWekKp/41cvPFRIZPH1GZ072xENw==
+"@react-workspaces/react-scripts@3.0.0-alpha-04":
+  version "3.0.0-alpha-04"
+  resolved "https://registry.yarnpkg.com/@react-workspaces/react-scripts/-/react-scripts-3.0.0-alpha-04.tgz#13b517c6babd626910a9e154dc8a1bcfcc489102"
+  integrity sha512-HlhbH0qhZvlMqPbDo7MY/RxJ9vQ3AdtppZvS4aSH0HEw0GFfzykzlbQZSDDrRiKfTETrSauj5WLjcr50Qyu2SQ==
   dependencies:
     "@babel/core" "7.4.3"
     "@svgr/webpack" "4.1.0"
