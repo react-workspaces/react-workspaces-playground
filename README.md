@@ -104,7 +104,7 @@ Support for Yarn Workspaces was added by:
 
 1. Updating the Webpack config:
 
-   - Use `main:src` in in `package.json` for loading development source code.
+   - Use `main:src` in `package.json` for loading development source code.
 
    - Use `production` or `development` settings based on your `yarn workspaces` settings in your `<workspaces-root>/package.json`:
 
