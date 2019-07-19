@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@project/components": "1.0.0",
-    "@react-workspaces/react-scripts": "3.0.0-alpha-04",
+    "@react-workspaces/react-scripts": "3.0.1-alpha-07",
     "cross-env": "5.0.5",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",

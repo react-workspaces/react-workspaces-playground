@@ -5,7 +5,7 @@
   "dependencies": {
     "@project/components": "1.0.0",
     "@babel/core": "^7.2.2",
-    "@react-workspaces/react-scripts": "3.0.0-alpha-04",
+    "@react-workspaces/react-scripts": "3.0.1-alpha-07",
     "babel-loader": "^8.0.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.3",
@@ -16,10 +16,10 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@storybook/react": "^5.0.10",
-    "@storybook/addon-actions": "^5.0.10",
-    "@storybook/addon-links": "^5.0.10",
-    "@storybook/addons": "^5.0.10",
-    "@storybook/theming": "^5.0.10"
+    "@storybook/react": "^5.2.0-alpha.35",
+    "@storybook/addon-actions": "^5.2.0-alpha.35",
+    "@storybook/addon-links": "^5.2.0-alpha.35",
+    "@storybook/addons": "^5.2.0-alpha.35",
+    "@storybook/theming": "^5.2.0-alpha.35"
   }
 }
