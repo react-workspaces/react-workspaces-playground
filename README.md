@@ -21,7 +21,7 @@
 - [Usage](#usage)
   - [Starting The React App](#starting-the-react-app)
   - [Starting The Storybook](#starting-the-storybook)
-  - [Linting & Testing](#linting--testing)
+  - [Linting &amp; Testing](#linting-amp-testing)
   - [Deploying to GitHub Pages](#deploying-to-github-pages)
   - [Creating a New CRA App](#creating-a-new-cra-app)
 - [How Does It Work?](#how-does-it-work)
@@ -36,7 +36,7 @@
 ### Installation
 
 ```bash
-git clone git@github.com:react-workspaces/cra-workspaces-playground
+git clone git@github.com:react-workspaces/cra-workspaces-playground.git
 cd cra-workspaces-playground
 yarn
 ```
