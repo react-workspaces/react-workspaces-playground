@@ -11,11 +11,12 @@
     "enzyme-adapter-react-16": "^1.12.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
+    "react-app-rewired": "^2.1.5",
     "react-dom": "^16.8.6",
     "source-map-explorer": "^2.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint ./src/**/*.js --max-warnings=0 --format=codeframe",

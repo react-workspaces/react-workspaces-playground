@@ -12,9 +12,10 @@
       "packages/storybook"
     ],
     "nohoist": [
-      "**/webpack-dev-server",
+      "packages/apps/**/webpack-dev-server",
       "**/babel-loader",
-      "**/babel-jest"
+      "**/babel-jest",
+      "**/@react-workspaces/react-scripts"
     ]
   },
   "devDependencies": {
