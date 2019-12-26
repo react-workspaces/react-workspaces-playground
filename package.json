@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "babel-eslint": "10.0.1",
-    "babel-plugin-import": "^1.13.0",
     "eslint": "5.16.0",
     "eslint-config-prettier": "^4.2.0",
     "eslint-config-react-app": "^4.0.0",
