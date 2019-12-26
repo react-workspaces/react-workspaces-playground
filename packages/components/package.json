@@ -8,7 +8,7 @@
     "lint": "eslint ./src/**/*.js --max-warnings=0 --format=codeframe"
   },
   "dependencies": {
-    "@react-workspaces/react-scripts": "3.0.1-alpha-07",
+    "@react-workspaces/react-scripts": "3.3.0-alpha-08",
     "@storybook/react": "^5.2.0-alpha.35",
     "cross-env": "5.0.5",
     "enzyme": "^3.9.0",
