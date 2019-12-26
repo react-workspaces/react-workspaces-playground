@@ -1,7 +1,7 @@
 {
   "parser": "babel-eslint",
   "plugins": ["react", "prettier", "jsx-a11y", "import"],
-  "extends": ["xo", "xo-react", "react-app", "prettier", "prettier/react"],
+  "extends": ["react-app", "prettier", "prettier/react"],
   "globals": {
     "expect": true,
     "describe": true,

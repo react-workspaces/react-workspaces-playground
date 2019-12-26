@@ -1,0 +1,11 @@
+.Comp {
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 3vmin;
+  background: #164a61;
+}
+
+.Comp h3 {
+  font-size: calc(24px + 1vmin);
+  margin: 0;
+}
