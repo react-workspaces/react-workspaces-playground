@@ -19,7 +19,7 @@
     "source-map-explorer": "^2.1.2"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "react-app-rewired start --scripts-version @react-workspaces/react-scripts",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint ./src/**/*.js --max-warnings=0 --format=codeframe",
