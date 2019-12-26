@@ -3,6 +3,8 @@ import ReactLogo from './ReactLogo.svg';
 import YarnCat from './YarnCat.svg';
 import './App.css';
 
+import {DatePicker} from 'antd';
+
 import {CompOne, CompTwo} from '@project/components';
 
 class App extends Component {
@@ -47,6 +49,7 @@ class App extends Component {
 					<div className="components">
 						<CompOne />
 						<CompTwo />
+						<DatePicker />
 					</div>
 				</header>
 			</div>
