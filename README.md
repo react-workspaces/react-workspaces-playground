@@ -1,5 +1,7 @@
 ![React Workspaces Playground Screenshots](https://i.imgur.com/7snWXD0.png)
 
+> 💥 Now supports TypeScript and React-App-Rewired!
+
 ## Features
 
 - ⚛️ Create React App 3 (React 16.8)
@@ -111,11 +113,7 @@ Support for Yarn Workspaces was added by:
      ```json
      {
        "workspaces": {
-         "packages": [
-           "packages/apps/*",
-           "packages/components",
-           "packages/storybook"
-         ],
+         "packages": ["packages/apps/*", "packages/components", "packages/storybook"],
          "production": true,
          "development": true,
          "package-entry": "main:src"

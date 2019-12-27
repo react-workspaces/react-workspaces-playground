@@ -3,7 +3,7 @@ import ReactLogo from './ReactLogo.svg';
 import YarnCat from './YarnCat.svg';
 import './App.css';
 
-import {CompOne, CompTwo} from '@project/components-typescript';
+import { CompOne, CompTwo } from '@project/components-typescript';
 
 const App: React.FC = () => {
   return (
@@ -26,12 +26,8 @@ const App: React.FC = () => {
         <h2>Hot Reload Your React TypeScript Workspaces</h2>
         <p className="body">
           <code className="file">packages/apps/app-one/src/App.tsx</code>
-          <code className="file">
-            packages/components/src/CompOne/CompOne.tsx
-          </code>
-          <code className="file">
-            packages/components/src/CompTwo/CompTwo.tsx
-          </code>
+          <code className="file">packages/components/src/CompOne/CompOne.tsx</code>
+          <code className="file">packages/components/src/CompTwo/CompTwo.tsx</code>
         </p>
         <div className="components">
           <CompOne />

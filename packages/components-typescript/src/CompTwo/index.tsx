@@ -1,1 +1,1 @@
-export {default} from './CompTwo';
+export { default } from './CompTwo';

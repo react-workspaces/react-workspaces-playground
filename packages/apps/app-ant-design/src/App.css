@@ -15,12 +15,13 @@
 
 .App-link {
   font-size: calc(30px + 2vmin);
-  color: #2F90BC;
+  color: #2f90bc;
   font-weight: 100;
 }
 
-.App-link:hover, .App-link:focus {
-  color: #00AFFF;
+.App-link:hover,
+.App-link:focus {
+  color: #00afff;
 }
 
 .App-link strong {
@@ -41,7 +42,7 @@ h2 {
 
 .file {
   font-size: calc(6px + 1vmin);
-  color: #FAA;
+  color: #faa;
   display: block;
 }
 
