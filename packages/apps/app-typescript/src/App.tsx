@@ -25,12 +25,12 @@ const App: React.FC = () => {
         </h1>
         <h2>Hot Reload Your React TypeScript Workspaces</h2>
         <p className="body">
-          <code className="file">packages/apps/app-one/src/App.js</code>
+          <code className="file">packages/apps/app-one/src/App.tsx</code>
           <code className="file">
-            packages/components/src/CompOne/CompOne.js
+            packages/components/src/CompOne/CompOne.tsx
           </code>
           <code className="file">
-            packages/components/src/CompTwo/CompTwo.js
+            packages/components/src/CompTwo/CompTwo.tsx
           </code>
         </p>
         <div className="components">

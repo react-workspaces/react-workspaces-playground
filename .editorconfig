@@ -1,6 +1,6 @@
 root = true
 
-[*.js,*.jsx,*.ts,*.tsx]
+[*.js *.jsx *.ts *.tsx]
 indent_style = tab
 indent_size = 4
 end_of_line = lf
