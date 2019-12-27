@@ -52,7 +52,7 @@ yarn workspace @project/app-one start
 ### Starting The Storybook
 
 ```bash
-yarn workspace @project/app-one storybook
+yarn workspace @project/storybook storybook
 ```
 
 ### Linting & Testing
