@@ -7,7 +7,7 @@ addParameters({
   },
 });
 
-const comps = require.context('@project/components-typescript/src', true, /.stories.jsx$/);
+const comps = require.context('@project/components-typescript/src', true, /.stories.tsx$/);
 
 configure(() => {
   comps.keys().forEach(filename => comps(filename));
