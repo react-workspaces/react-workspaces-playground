@@ -10,7 +10,8 @@
       "packages/apps/*",
       "packages/components",
       "packages/components-typescript",
-      "packages/storybook"
+      "packages/storybook",
+      "packages/storybook-typescript"
     ],
     "nohoist": [
       "packages/apps/**/webpack-dev-server",
