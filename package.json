@@ -29,6 +29,8 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
     "jest-prop-type-error": "^1.1.0",
     "lerna": "^3.10.7",
     "prettier": "^1.16.1"

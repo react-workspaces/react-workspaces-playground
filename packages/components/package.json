@@ -1,6 +1,7 @@
 {
   "name": "@project/components",
   "version": "1.0.0",
+  "homepage": "https://react-workspaces.github.io/react-workspaces-playground",
   "main": "src/index.js",
   "main:src": "src/index.js",
   "scripts": {
@@ -10,15 +11,17 @@
   "dependencies": {
     "@react-workspaces/react-scripts": "3.3.0-alpha-08",
     "@storybook/react": "^5.2.0-alpha.35",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
     "cross-env": "5.0.5",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
     "prop-types": "^15.6.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-config-react-app": "^5.1.0"
   },
   "browserslist": [
     ">0.2%",
@@ -28,10 +31,10 @@
   ],
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/setupTests.{js,jsx}",
-      "!src/serviceWorker.{js,jsx}",
-      "!src/**/*.(spec|test|stories).{js,jsx}"
+      "src/**/*.{js}",
+      "!src/setupTests.{js}",
+      "!src/serviceWorker.{js}",
+      "!src/**/*.(spec|test|stories).{js}"
     ],
     "coverageThreshold": {
       "global": {
@@ -42,9 +45,5 @@
       }
     }
   },
-  "license": "MIT",
-  "devDependencies": {
-    "eslint-config-prettier": "^6.8.0",
-    "eslint-plugin-prettier": "^3.1.2"
-  }
+  "license": "MIT"
 }

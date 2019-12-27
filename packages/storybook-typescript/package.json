@@ -1,0 +1,25 @@
+{
+  "name": "@project/storybook",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@project/components": "1.0.0",
+    "@babel/core": "^7.2.2",
+    "@react-workspaces/react-scripts": "3.3.0-alpha-08",
+    "babel-loader": "^8.0.5",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.3",
+    "cross-env": "5.0.5"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.2.0-alpha.35",
+    "@storybook/addon-actions": "^5.2.0-alpha.35",
+    "@storybook/addon-links": "^5.2.0-alpha.35",
+    "@storybook/addons": "^5.2.0-alpha.35",
+    "@storybook/theming": "^5.2.0-alpha.35"
+  }
+}

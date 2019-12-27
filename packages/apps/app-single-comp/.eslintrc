@@ -17,12 +17,6 @@
   "rules": {
     "space-before-function-paren": 0,
     "quotes": 0,
-    "operator-linebreak": 0,
-    "react/jsx-tag-spacing": [
-      "error",
-      {
-        "beforeSelfClosing": "always"
-      }
-    ]
+    "operator-linebreak": 0
   }
 }
