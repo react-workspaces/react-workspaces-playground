@@ -42,5 +42,9 @@
       }
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2"
+  }
 }

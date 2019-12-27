@@ -19,11 +19,6 @@
     ]
   },
   "devDependencies": {
-    "jest-prop-type-error": "^1.1.0",
-    "lerna": "^3.10.7",
-    "prettier": "^1.16.1"
-  },
-  "dependencies": {
     "babel-eslint": "10.0.3",
     "eslint": "6.6.0",
     "eslint-config-prettier": "^4.2.0",
@@ -33,15 +28,18 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.6.0"
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "jest-prop-type-error": "^1.1.0",
+    "lerna": "^3.10.7",
+    "prettier": "^1.16.1"
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/setupTests.{js,jsx}",
-      "!src/index.{js,jsx}",
-      "!src/serviceWorker.{js,jsx}",
-      "!src/**/*.(spec|test|stories).{js,jsx}"
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/setupTests.{js,jsx,ts,tsx}",
+      "!src/index.{js,jsx,ts,tsx}",
+      "!src/serviceWorker.{js,jsx,ts,tsx}",
+      "!src/**/*.(spec|test|stories).{js,jsx,ts,tsx}"
     ]
   }
 }

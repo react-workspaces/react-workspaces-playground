@@ -9,6 +9,9 @@
     "cross-env": "5.0.5",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-config-react-app": "^5.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -51,5 +54,9 @@
         "lines": 98
       }
     }
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2"
   }
 }
