@@ -46,22 +46,19 @@ yarn
 ### Starting The React App
 
 ```bash
-cd packages/apps/app-one
-yarn start
+yarn workspace @project/app-one start
 ```
 
 ### Starting The Storybook
 
 ```bash
-cd packages/storybook
-yarn storybook
+yarn workspace @project/storybook storybook
 ```
 
 ### Linting & Testing
 
 ```bash
-cd <workspace-root>
-yarn test
+yarn workspace <workspace-root> test
 ```
 
 ### Deploying to GitHub Pages
@@ -82,8 +79,7 @@ Update the `homepage` URL in `app-one/package.json` to reflect your GitHub Pages
 Run the deploy script.
 
 ```bash
-cd <workspace-root>
-yarn deploy
+yarn workspace <workspace-root> deploy
 ```
 
 ### Creating a New CRA App
