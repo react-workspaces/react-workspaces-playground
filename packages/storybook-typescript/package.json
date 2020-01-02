@@ -1,0 +1,28 @@
+{
+  "name": "@project/storybook-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@project/components-typescript": "1.0.0",
+    "@react-workspaces/react-scripts": "3.3.0-alpha-08",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-docs": "^5.2.8",
+    "@storybook/addon-info": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/preset-create-react-app": "^1.5.0",
+    "@storybook/react": "^5.2.8",
+    "@storybook/theming": "^5.2.8",
+    "babel-loader": "^8.0.6",
+    "cross-env": "5.0.5"
+  }
+}
