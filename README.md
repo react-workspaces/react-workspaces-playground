@@ -48,7 +48,7 @@ yarn
 ### Starting The React App
 
 ```bash
-yarn workspace @project/app-one start
+yarn workspace @project/app-single-comp start
 ```
 
 ### Starting The Storybook
@@ -69,7 +69,7 @@ Update the `homepage` URL in `app-one/package.json` to reflect your GitHub Pages
 
 ```json
 {
-  "name": "@project/app-one",
+  "name": "@project/app-single-comp",
   "private": true,
   "homepage": "https://react-workspaces.github.io/react-workspaces-playground",
   "scripts": {
