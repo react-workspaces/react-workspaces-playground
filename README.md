@@ -43,18 +43,50 @@ cd cra-workspaces-playground
 yarn
 ```
 
+### Adding workspace dependencies
+
+```bash
+yarn workspace <workspace_name> <command>
+```
+
+This will run the chosen Yarn command in the selected workspace.
+
+Example:
+
+```bash
+yarn workspace my-app add react-router-dom --dev
+```
+
+This will add `react-router-dom` as `dependencies` in your `packages/my-app/package.json`. To remove dependency use `remove` instead of add
+
 ## Usage
 
-### Starting The React App
+### Starting Project in Workspace
+
+From your project root type start command for desired app
 
 ```bash
 yarn workspace @project/app-single-comp start
 ```
 
+All available `start` scripts
+
+```json
+"scripts": {
+    "start:app-ant-design": "yarn workspace @project/app-ant-design-rewired start",
+    "start:app-multi": "yarn workspace @project/app-multi-comps start",
+    "start:app-single": "yarn workspace @project/app-single-comp start",
+    "start:app-ts": "yarn workspace @project/app-typescript start",
+    "start:storybook": "yarn workspace @project/storybook storybook",
+    "start:storybook-ts": "yarn workspace @project/storybook-typescript storybook",
+    ...
+  }
+```
+
 ### Starting The Storybook
 
 ```bash
-yarn workspace @project/storybook storybook
+yarn start:storybook
 ```
 
 ### Linting & Testing
@@ -86,10 +118,16 @@ yarn workspace <workspace-root> deploy
 
 ### Creating a New CRA App
 
-Use Create React App's `--scripts-version` to create a new React App with Yarn Workspaces support.
+Use Create React App's `--scripts-version` flag to create a new React App with Yarn Workspaces support.
 
 ```bash
 create-react-app --scripts-version @react-workspaces/react-scripts my-app
+```
+
+To create new TS app use Create React App's `--template` flag with `--scripts-version` flag to create a new React App with Yarn Workspaces support and Typescript.
+
+```bash
+npx create-react-app --scripts-version @react-workspaces/react-scripts --template typescript my-ts-app
 ```
 
 ## How Does It Work?
