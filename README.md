@@ -66,7 +66,7 @@ This will add `react-router-dom` as `dependencies` in your `packages/my-app/pack
 From your project root type start command for desired app
 
 ```bash
-yarn start:app-one
+yarn workspace @project/app-single-comp start
 ```
 
 All available `start` scripts
@@ -101,7 +101,7 @@ Update the `homepage` URL in `app-one/package.json` to reflect your GitHub Pages
 
 ```json
 {
-  "name": "@project/app-one",
+  "name": "@project/app-single-comp",
   "private": true,
   "homepage": "https://react-workspaces.github.io/react-workspaces-playground",
   "scripts": {
