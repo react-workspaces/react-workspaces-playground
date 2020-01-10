@@ -2,6 +2,12 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "start:app-ant-design": "yarn workspace @project/app-ant-design-rewired start",
+    "start:app-multi": "yarn workspace @project/app-multi-comps start",
+    "start:app-single": "yarn workspace @project/app-single-comp start",
+    "start:app-ts": "yarn workspace @project/app-typescript start",
+    "start:storybook": "yarn workspace @project/storybook storybook",
+    "start:storybook-ts": "yarn workspace @project/storybook-typescript storybook",
     "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage",
     "deploy": "FORCE_COLOR=true lerna run deploy"
   },
