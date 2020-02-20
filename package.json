@@ -56,5 +56,6 @@
       "!src/serviceWorker.{js,jsx,ts,tsx}",
       "!src/**/*.(spec|test|stories).{js,jsx,ts,tsx}"
     ]
-  }
+  },
+  "dependencies": {}
 }
