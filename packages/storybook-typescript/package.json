@@ -20,8 +20,8 @@
     "@storybook/addon-links": "^5.2.8",
     "@storybook/addons": "^5.2.8",
     "@storybook/preset-create-react-app": "^1.5.2",
-    "@storybook/react": "^5.2.8",
-    "@storybook/theming": "^5.2.8",
+    "@storybook/react": "^5.3.13",
+    "@storybook/theming": "^5.3.13",
     "babel-loader": "^8.0.6",
     "cross-env": "^7.0.0"
   }
