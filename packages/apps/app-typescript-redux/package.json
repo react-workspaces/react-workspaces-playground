@@ -1,19 +1,23 @@
 {
-	"name": "@ocdlimited/app-typescript",
+	"name": "@ocdlimited/app-typescript-redux",
 	"version": "0.0.2-alpha.0",
+	"homepage": "https://ocdlimited.github.io/react-workspaces-playground/",
 	"private": true,
 	"dependencies": {
-		"@ocdlimited/components-typescript": "^0.0.2-alpha.0",
-		"@react-workspaces/react-scripts": "^3.3.0-alpha-08",
-		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.4.0",
 		"@testing-library/user-event": "^8.0.3",
 		"@types/jest": "^24.0.25",
 		"@types/node": "^13.1.6",
 		"@types/react": "^16.9.17",
 		"@types/react-dom": "^16.9.4",
-		"react": "^16.12.0",
-		"react-dom": "^16.12.0",
+		"@ocdlimited/components-typescript": "^0.0.2-alpha.0",
+		"@reduxjs/toolkit": "^1.2.5",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@types/react-redux": "^7.1.7",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-redux": "^7.2.0",
+		"@react-workspaces/react-scripts": "^3.3.0-alpha-08",
 		"typescript": "~3.8.2"
 	},
 	"scripts": {
@@ -48,10 +52,10 @@
 		],
 		"coverageThreshold": {
 			"global": {
-				"statements": 98,
-				"branches": 98,
-				"functions": 98,
-				"lines": 98
+				"statements": 90,
+				"branches": 45,
+				"functions": 90,
+				"lines": 90
 			}
 		}
 	}
