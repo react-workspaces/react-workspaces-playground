@@ -103,7 +103,7 @@ Update the `homepage` URL in `app-one/package.json` to reflect your GitHub Pages
 {
 	"name": "@ocdlimited/app-single-comp",
 	"private": true,
-	"homepage": "https://react-workspaces.github.io/react-workspaces-playground",
+	"homepage": "https://ocdlimited.github.io/react-workspaces-playground/",
 	"scripts": {
 		"deploy": "gh-pages -d build"
 	}
