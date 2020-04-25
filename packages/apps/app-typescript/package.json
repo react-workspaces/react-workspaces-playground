@@ -1,9 +1,9 @@
 {
 	"name": "@ocdlimited/app-typescript",
-	"version": "0.1.0",
+	"version": "0.0.2-alpha.0",
 	"private": true,
 	"dependencies": {
-		"@ocdlimited/components-typescript": "1.0.0",
+		"@ocdlimited/components-typescript": "^0.0.2-alpha.0",
 		"@react-workspaces/react-scripts": "^3.3.0-alpha-08",
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.4.0",

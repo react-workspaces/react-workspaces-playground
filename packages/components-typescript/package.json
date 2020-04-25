@@ -1,6 +1,6 @@
 {
 	"name": "@ocdlimited/components-typescript",
-	"version": "1.0.0",
+	"version": "0.0.2-alpha.0",
 	"main": "src/index.tsx",
 	"main:src": "src/index.tsx",
 	"scripts": {

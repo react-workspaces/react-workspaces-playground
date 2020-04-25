@@ -1,6 +1,6 @@
 {
 	"name": "@ocdlimited/components",
-	"version": "1.0.0",
+	"version": "0.0.2-alpha.0",
 	"homepage": "https://ocdlimited.github.io/react-workspaces-playground/",
 	"main": "src/index.js",
 	"main:src": "src/index.js",
@@ -18,10 +18,10 @@
 		"cross-env": "6.0.3",
 		"enzyme": "^3.11.0",
 		"enzyme-adapter-react-16": "^1.15.2",
-		"prop-types": "^15.7.2",
 		"eslint-config-prettier": "^6.9.0",
+		"eslint-config-react-app": "^5.1.0",
 		"eslint-plugin-prettier": "^3.1.2",
-		"eslint-config-react-app": "^5.1.0"
+		"prop-types": "^15.7.2"
 	},
 	"browserslist": [
 		">0.2%",
