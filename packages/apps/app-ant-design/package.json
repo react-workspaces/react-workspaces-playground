@@ -21,7 +21,7 @@
 	"devDependencies": {
 		"antd": "^3.26.6",
 		"babel-plugin-import": "^1.13.0",
-		"cross-env": "6.0.3",
+		"cross-env": "7.0.2",
 		"customize-cra": "^0.9.1",
 		"enzyme": "^3.11.0",
 		"enzyme-adapter-react-16": "^1.15.2",

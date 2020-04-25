@@ -9,7 +9,6 @@
 		"start:app-ts-redux": "yarn workspace @ocdlimited/app-typescript-redux start",
 		"start:storybook": "yarn workspace @ocdlimited/storybook storybook",
 		"start:storybook-ts": "yarn workspace @ocdlimited/storybook-typescript storybook",
-		"start:storybook-ts-redux": "yarn workspace @ocdlimited/storybook-typescript-redux storybook",
 		"test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage",
 		"deploy": "FORCE_COLOR=true lerna run deploy"
 	},

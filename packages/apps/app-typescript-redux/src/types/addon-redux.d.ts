@@ -1,7 +1,12 @@
 declare module 'addon-redux/enhancer' {
-  import { AnyAction, StoreEnhancer, Store } from 'redux';
+  import { StoreCreator } from 'redux';
+  export function withReduxEnhancer(next: StoreCreator): StoreCreator {}
+  export = withReduxEnhancer;
+}
 
-  export function withReduxEnhancer(Store);
+declare module 'addon-redux/withRedux' {
+  import { AddonStore } from '@storybook/react';
 
-  exports = withReduxEnhancer;
+  export function withRedux(store: AddonStore);
+  export = withRedux;
 }
