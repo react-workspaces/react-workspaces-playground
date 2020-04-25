@@ -1,58 +1,58 @@
 {
-  "name": "@project/app-typescript",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@project/components-typescript": "1.0.0",
-    "@react-workspaces/react-scripts": "^3.3.0-alpha-08",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^8.0.3",
-    "@types/jest": "^24.0.25",
-    "@types/node": "^13.1.6",
-    "@types/react": "^16.9.17",
-    "@types/react-dom": "^16.9.4",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "typescript": "~3.7.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint ./src/**/*.{ts,tsx} --max-warnings=0 --format=codeframe"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{ts,tsx}",
-      "!src/setupTests.{ts,tsx}",
-      "!src/index.{ts,tsx}",
-      "!src/serviceWorker.{ts,tsx}",
-      "!src/**/*.(spec|test|stories).{ts,tsx}"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "statements": 98,
-        "branches": 98,
-        "functions": 98,
-        "lines": 98
-      }
-    }
-  }
+	"name": "@ocdlimited/app-typescript",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@ocdlimited/components-typescript": "1.0.0",
+		"@react-workspaces/react-scripts": "^3.3.0-alpha-08",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.4.0",
+		"@testing-library/user-event": "^8.0.3",
+		"@types/jest": "^24.0.25",
+		"@types/node": "^13.1.6",
+		"@types/react": "^16.9.17",
+		"@types/react-dom": "^16.9.4",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"typescript": "~3.7.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"lint": "eslint ./src/**/*.{ts,tsx} --max-warnings=0 --format=codeframe"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"jest": {
+		"collectCoverageFrom": [
+			"src/**/*.{ts,tsx}",
+			"!src/setupTests.{ts,tsx}",
+			"!src/index.{ts,tsx}",
+			"!src/serviceWorker.{ts,tsx}",
+			"!src/**/*.(spec|test|stories).{ts,tsx}"
+		],
+		"coverageThreshold": {
+			"global": {
+				"statements": 98,
+				"branches": 98,
+				"functions": 98,
+				"lines": 98
+			}
+		}
+	}
 }

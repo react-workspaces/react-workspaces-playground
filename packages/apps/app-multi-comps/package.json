@@ -1,60 +1,60 @@
 {
-  "name": "@project/app-multi-comps",
-  "version": "1.0.0",
-  "homepage": "https://react-workspaces.github.io/react-workspaces-playground",
-  "private": true,
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "lint": "eslint ./src/**/*.js --max-warnings=0 --format=codeframe",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
-    "analyze": "source-map-explorer 'build/static/js/*.js'"
-  },
-  "dependencies": {
-    "@project/components": "1.0.0",
-    "@react-workspaces/react-scripts": "^3.3.0-alpha-08",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
-  "devDependencies": {
-    "cross-env": "6.0.3",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "gh-pages": "^2.2.0",
-    "source-map-explorer": "^2.2.2",
-    "eslint-config-react-app": "^5.1.0",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-plugin-prettier": "^3.1.2"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/setupTests.{js,jsx}",
-      "!src/index.{js,jsx}",
-      "!src/serviceWorker.{js,jsx}",
-      "!src/**/*.(spec|test|stories).{js,jsx}"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "statements": 98,
-        "branches": 98,
-        "functions": 98,
-        "lines": 98
-      }
-    }
-  }
+	"name": "@ocdlimited/app-multi-comps",
+	"version": "1.0.0",
+	"homepage": "https://react-workspaces.github.io/react-workspaces-playground",
+	"private": true,
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"lint": "eslint ./src/**/*.js --max-warnings=0 --format=codeframe",
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build",
+		"analyze": "source-map-explorer 'build/static/js/*.js'"
+	},
+	"dependencies": {
+		"@ocdlimited/components": "1.0.0",
+		"@react-workspaces/react-scripts": "^3.3.0-alpha-08",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0"
+	},
+	"devDependencies": {
+		"cross-env": "6.0.3",
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.2",
+		"gh-pages": "^2.2.0",
+		"source-map-explorer": "^2.2.2",
+		"eslint-config-react-app": "^5.1.0",
+		"eslint-config-prettier": "^6.9.0",
+		"eslint-plugin-prettier": "^3.1.2"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"jest": {
+		"collectCoverageFrom": [
+			"src/**/*.{js,jsx}",
+			"!src/setupTests.{js,jsx}",
+			"!src/index.{js,jsx}",
+			"!src/serviceWorker.{js,jsx}",
+			"!src/**/*.(spec|test|stories).{js,jsx}"
+		],
+		"coverageThreshold": {
+			"global": {
+				"statements": 98,
+				"branches": 98,
+				"functions": 98,
+				"lines": 98
+			}
+		}
+	}
 }

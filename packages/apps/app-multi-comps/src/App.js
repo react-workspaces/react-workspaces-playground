@@ -3,7 +3,7 @@ import ReactLogo from './ReactLogo.svg';
 import YarnCat from './YarnCat.svg';
 import './App.css';
 
-import { CompOne, CompTwo } from '@project/components';
+import { CompOne, CompTwo } from '@ocdlimited/components';
 
 class App extends Component {
   render() {

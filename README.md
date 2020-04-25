@@ -66,19 +66,19 @@ This will add `react-router-dom` as `dependencies` in your `packages/my-app/pack
 From your project root type start command for desired app
 
 ```bash
-yarn workspace @project/app-single-comp start
+yarn workspace @ocdlimited/app-single-comp start
 ```
 
 All available `start` scripts
 
 ```json
 "scripts": {
-    "start:app-ant-design": "yarn workspace @project/app-ant-design-rewired start",
-    "start:app-multi": "yarn workspace @project/app-multi-comps start",
-    "start:app-single": "yarn workspace @project/app-single-comp start",
-    "start:app-ts": "yarn workspace @project/app-typescript start",
-    "start:storybook": "yarn workspace @project/storybook storybook",
-    "start:storybook-ts": "yarn workspace @project/storybook-typescript storybook",
+    "start:app-ant-design": "yarn workspace @ocdlimited/app-ant-design-rewired start",
+    "start:app-multi": "yarn workspace @ocdlimited/app-multi-comps start",
+    "start:app-single": "yarn workspace @ocdlimited/app-single-comp start",
+    "start:app-ts": "yarn workspace @ocdlimited/app-typescript start",
+    "start:storybook": "yarn workspace @ocdlimited/storybook storybook",
+    "start:storybook-ts": "yarn workspace @ocdlimited/storybook-typescript storybook",
     ...
   }
 ```
@@ -101,12 +101,12 @@ Update the `homepage` URL in `app-one/package.json` to reflect your GitHub Pages
 
 ```json
 {
-  "name": "@project/app-single-comp",
-  "private": true,
-  "homepage": "https://react-workspaces.github.io/react-workspaces-playground",
-  "scripts": {
-    "deploy": "gh-pages -d build"
-  }
+	"name": "@ocdlimited/app-single-comp",
+	"private": true,
+	"homepage": "https://react-workspaces.github.io/react-workspaces-playground",
+	"scripts": {
+		"deploy": "gh-pages -d build"
+	}
 }
 ```
 
@@ -146,12 +146,12 @@ Support for Yarn Workspaces was added by:
 
      ```json
      {
-       "workspaces": {
-         "packages": ["packages/apps/*", "packages/components", "packages/storybook"],
-         "production": true,
-         "development": true,
-         "package-entry": "main:src"
-       }
+     	"workspaces": {
+     		"packages": ["packages/apps/*", "packages/components", "packages/storybook"],
+     		"production": true,
+     		"development": true,
+     		"package-entry": "main:src"
+     	}
      }
      ```
 

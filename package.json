@@ -1,60 +1,60 @@
 {
-  "name": "root",
-  "private": true,
-  "scripts": {
-    "start:app-ant-design": "yarn workspace @project/app-ant-design-rewired start",
-    "start:app-multi": "yarn workspace @project/app-multi-comps start",
-    "start:app-single": "yarn workspace @project/app-single-comp start",
-    "start:app-ts": "yarn workspace @project/app-typescript start",
-    "start:storybook": "yarn workspace @project/storybook storybook",
-    "start:storybook-ts": "yarn workspace @project/storybook-typescript storybook",
-    "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage",
-    "deploy": "FORCE_COLOR=true lerna run deploy"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/apps/*",
-      "packages/components",
-      "packages/components-typescript",
-      "packages/storybook",
-      "packages/storybook-typescript"
-    ],
-    "nohoist": [
-      "packages/apps/**/webpack-dev-server",
-      "**/babel-loader",
-      "**/babel-jest"
-    ]
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.15.0",
-    "@typescript-eslint/parser": "^2.15.0",
-    "babel-eslint": "10.0.3",
-    "eslint": "6.8.0",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-config-react-app": "^5.1.0",
-    "eslint-plugin-flowtype": "^4.5.3",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
-    "husky": "^4.0.6",
-    "jest-prop-type-error": "^1.1.0",
-    "lerna": "^3.20.2",
-    "prettier": "^1.19.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn test"
-    }
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
-      "!src/setupTests.{js,jsx,ts,tsx}",
-      "!src/index.{js,jsx,ts,tsx}",
-      "!src/serviceWorker.{js,jsx,ts,tsx}",
-      "!src/**/*.(spec|test|stories).{js,jsx,ts,tsx}"
-    ]
-  }
+	"name": "root",
+	"private": true,
+	"scripts": {
+		"start:app-ant-design": "yarn workspace @ocdlimited/app-ant-design-rewired start",
+		"start:app-multi": "yarn workspace @ocdlimited/app-multi-comps start",
+		"start:app-single": "yarn workspace @ocdlimited/app-single-comp start",
+		"start:app-ts": "yarn workspace @ocdlimited/app-typescript start",
+		"start:storybook": "yarn workspace @ocdlimited/storybook storybook",
+		"start:storybook-ts": "yarn workspace @ocdlimited/storybook-typescript storybook",
+		"test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage",
+		"deploy": "FORCE_COLOR=true lerna run deploy"
+	},
+	"workspaces": {
+		"packages": [
+			"packages/apps/*",
+			"packages/components",
+			"packages/components-typescript",
+			"packages/storybook",
+			"packages/storybook-typescript"
+		],
+		"nohoist": [
+			"packages/apps/**/webpack-dev-server",
+			"**/babel-loader",
+			"**/babel-jest"
+		]
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.15.0",
+		"@typescript-eslint/parser": "^2.15.0",
+		"babel-eslint": "10.0.3",
+		"eslint": "6.8.0",
+		"eslint-config-prettier": "^6.9.0",
+		"eslint-config-react-app": "^5.1.0",
+		"eslint-plugin-flowtype": "^4.5.3",
+		"eslint-plugin-import": "^2.19.1",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.17.0",
+		"eslint-plugin-react-hooks": "^2.3.0",
+		"husky": "^4.0.6",
+		"jest-prop-type-error": "^1.1.0",
+		"lerna": "^3.20.2",
+		"prettier": "^1.19.1"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "yarn test"
+		}
+	},
+	"jest": {
+		"collectCoverageFrom": [
+			"src/**/*.{js,jsx,ts,tsx}",
+			"!src/setupTests.{js,jsx,ts,tsx}",
+			"!src/index.{js,jsx,ts,tsx}",
+			"!src/serviceWorker.{js,jsx,ts,tsx}",
+			"!src/**/*.(spec|test|stories).{js,jsx,ts,tsx}"
+		]
+	}
 }

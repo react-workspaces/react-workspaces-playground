@@ -7,7 +7,7 @@ addParameters({
   },
 });
 
-const comps = require.context('@project/components-typescript/src', true, /.stories.tsx$/);
+const comps = require.context('@ocdlimited/components-typescript/src', true, /.stories.tsx$/);
 
 configure(() => {
   comps.keys().forEach(filename => comps(filename));

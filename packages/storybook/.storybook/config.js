@@ -7,7 +7,7 @@ addParameters({
   },
 });
 
-const comps = require.context('@project/components/src', true, /.stories.js$/);
+const comps = require.context('@ocdlimited/components/src', true, /.stories.js$/);
 
 configure(() => {
   comps.keys().forEach(filename => comps(filename));
