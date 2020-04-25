@@ -1,7 +1,7 @@
 {
 	"name": "@ocdlimited/app-multi-comps",
 	"version": "1.0.0",
-	"homepage": "https://react-workspaces.github.io/react-workspaces-playground",
+	"homepage": "https://ocdlimited.github.io/react-workspaces-playground/",
 	"private": true,
 	"scripts": {
 		"start": "react-scripts start",

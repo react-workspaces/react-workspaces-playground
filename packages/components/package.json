@@ -1,7 +1,7 @@
 {
 	"name": "@ocdlimited/components",
 	"version": "1.0.0",
-	"homepage": "https://react-workspaces.github.io/react-workspaces-playground",
+	"homepage": "https://ocdlimited.github.io/react-workspaces-playground/",
 	"main": "src/index.js",
 	"main:src": "src/index.js",
 	"scripts": {
