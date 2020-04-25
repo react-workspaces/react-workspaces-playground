@@ -1,6 +1,7 @@
 {
 	"name": "@ocdlimited/app-typescript-redux",
 	"version": "0.0.2-alpha.0",
+	"homepage": "https://ocdlimited.github.io/react-workspaces-playground/",
 	"private": true,
 	"dependencies": {
 		"@testing-library/react": "^9.4.0",
