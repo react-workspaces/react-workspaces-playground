@@ -1,6 +1,8 @@
 ![React Workspaces Playground Screenshots](https://i.imgur.com/7snWXD0.png)
 
-> 💥 Now supports TypeScript and React-App-Rewired!
+![Join us on Slack](https://img.shields.io/badge/Slack-React--Workpaces-EBB424?style=for-the-badge&logo=slack)
+
+> 💥 Now supports TypeScript and React-App-Rewired!  
 
 ## Features
 
