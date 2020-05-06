@@ -40,8 +40,8 @@
 ### Installation
 
 ```bash
-git clone git@github.com:react-workspaces/cra-workspaces-playground.git
-cd cra-workspaces-playground
+git clone git@github.com:react-workspaces/react-workspaces-playground.git
+cd react-workspaces-playground
 yarn
 ```
 
