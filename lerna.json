@@ -1,10 +1,12 @@
 {
   "useWorkspaces": true,
   "packages": ["packages/*/*"],
+  "npmClient": "yarn",
   "version": "1.0.0",
   "command": {
     "run": {
-      "npmClient": "yarn"
+      "npmClient": "yarn",
+      "useWorkspaces": true
     }
   }
 }

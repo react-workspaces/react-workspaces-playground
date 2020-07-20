@@ -6,5 +6,9 @@
         { "language": "typescript", "autoFix": true },
         { "language": "typescriptreact", "autoFix": true }
     ],
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "deepscan.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }

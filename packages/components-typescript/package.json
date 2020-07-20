@@ -9,20 +9,13 @@
   },
   "dependencies": {
     "@react-workspaces/react-scripts": "3.3.0-alpha-08",
-    "@storybook/react": "^5.2.8",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^8.0.3",
-    "@types/jest": "^24.0.25",
-    "@types/node": "^13.1.6",
-    "@types/react": "^16.9.17",
-    "@types/react-dom": "^16.9.4",
-    "@typescript-eslint/eslint-plugin": "^2.15.0",
-    "@typescript-eslint/parser": "^2.15.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "typescript": "~3.7.4"
+    "@storybook/react": "^5.3.19",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/user-event": "^12.0.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.9.7"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,5 +42,13 @@
       }
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.5",
+    "@types/node": "^14.0.23",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1"
+  }
 }
