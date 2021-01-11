@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@project/components-typescript": "1.0.0",
-    "@react-workspaces/react-scripts": "^3.3.0-alpha-08",
+    "@react-workspaces/react-scripts": "3.4.0-alpha-01",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^8.0.3",

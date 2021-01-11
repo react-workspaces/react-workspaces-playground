@@ -2,12 +2,12 @@
 
 ![Join us on Slack](https://img.shields.io/badge/Slack-React--Workpaces-EBB424?style=for-the-badge&logo=slack)
 
-> 💥 Now supports TypeScript and React-App-Rewired!  
+> 💥 Now supports TypeScript and React-App-Rewired!
 
 ## Features
 
 - ⚛️ Create React App 3 (React 16.8)
-- 📖 Storybook 5
+- 📖 Storybook 6
 - 🐈 Yarn Workspaces
 - 🐉 Lerna 3
 - ✨ Host Multiple CRA Apps, Component Libraries & Storybooks in one Monorepo
