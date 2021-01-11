@@ -43,9 +43,6 @@
     "lerna": "^3.20.2",
     "prettier": "^1.19.1"
   },
-  "resolutions": {
-    "webpack": "4.41.5"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "yarn test"
