@@ -9,7 +9,7 @@
     "lint": "eslint ./src/**/*.tsx --max-warnings=0 --format=codeframe"
   },
   "dependencies": {
-    "@react-workspaces/react-scripts": "3.3.0-alpha-08",
+    "@react-workspaces/react-scripts": "3.4.0-alpha-01",
     "@storybook/react": "^6.1.11",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

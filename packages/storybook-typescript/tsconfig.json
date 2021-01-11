@@ -15,5 +15,5 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": ["src", ".storybook/*"]
+  "include": ["src", ".storybook/*", "../components-typescript"]
 }
